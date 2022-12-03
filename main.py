@@ -12,3 +12,7 @@ def test_count_digits():
     assert count_digits() == 0
     assert count_digits('Без цифр!') == 0
     assert count_digits('Привет, 0_0 мирР!?') == 2
+
+
+if __name__ == '__main__':
+    print(count_digits('Цифорки: 1235'))
