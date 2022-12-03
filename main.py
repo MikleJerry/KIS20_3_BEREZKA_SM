@@ -1,6 +1,7 @@
 digits = '1234567890'
 
 def count_digits(line=''):
+    """Считывает и возвращает количество цифр из строки"""
     digits_number = 0
     for symbol in line:
         if symbol in digits:
